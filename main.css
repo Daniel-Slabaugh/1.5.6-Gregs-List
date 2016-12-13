@@ -1,0 +1,124 @@
+header {
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	background-color: grey;
+}
+
+body {
+	margin: 0px;
+}
+
+main {
+	margin-left:100px;
+	margin-top: 30px;
+}
+
+.name {
+	position: absolute;
+}
+
+header ul {
+	position: absolute;
+	right: 15px;
+}
+
+header li {
+	display:inline-block;
+	margin-left: 10px;
+	font-size: 20px;
+	color: purple;
+}
+
+/* unvisited link */
+a:link {
+    color: purple;
+}
+
+/* visited link */
+a:visited {
+    color: purple;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+.results {
+	margin-top: 100px;
+	width: 100%;
+	position: relative;
+}
+
+input {
+	border: solid 1px;
+	border-color: grey;
+	border-radius: 3px;
+	height: 25px;
+	width: 400px;
+}
+
+.search-icon {
+	margin-top: 5px;
+	display: inline-block;
+	height: 18px;
+	width: 20px;
+	vertical-align: center;
+}
+
+.search-button {
+  	vertical-align: bottom;
+  	background:white;
+  	border: solid 1px;
+	border-color: grey;
+	border-radius: 3px;
+	height: 30px;
+}
+
+
+.pages {
+	margin-top:50px;
+  	display: inline-block;
+  	font-size: 0;
+  	margin-bottom: 30px;
+  	border: 1px solid grey;
+  	border-radius: 3px;
+}
+
+.pages-button {
+  	font-size: 16px;
+  	display: inline-block;
+  	padding: 8px 15px;
+  	border-radius: 3px;
+}
+
+.pages-display {
+  	font-size: 16px;
+  	padding: 0 30px;
+  	padding: 8px 25px;
+  	border-left: 1px solid grey;
+  	border-right: 1px solid grey;
+}
+
+.listings {
+  	padding: 0;
+}
+
+.listing {
+  	list-style: none;
+  	margin-bottom: 15px;
+}
+
+.listing-date ,
+.listing-location {
+  	color: purple;
+}
+
+.listing-title {
+  	font-weight: bold;
+  	font-size: 17px;
+  	margin-left: 8px;
+  	margin-right: 8px;
+}
